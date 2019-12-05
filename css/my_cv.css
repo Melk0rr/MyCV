@@ -1,0 +1,270 @@
+* {
+    position: relative;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+}
+
+.flex {
+    display: flex;
+}
+
+.f-row-nw {
+    flex-flow: row nowrap;
+}
+
+.f-row-w {
+    flex-flow: row wrap;
+}
+
+.f-col-nw {
+    flex-flow: column nowrap;
+}
+
+.cv {
+    width: 21cm;
+    height: 29.7cm;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.personal {
+    height: 100%;
+    width: 33%;
+    overflow: hidden;
+}
+
+.personal, .formation {
+    color: rgb(51, 51, 51);
+}
+
+.personal {
+    background-color: rgb(231, 231, 231);
+}
+
+.personal-section {
+    margin: .2cm 0 .05cm 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.blue, a {
+    color: rgb(14, 84, 132);
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: rgb(0, 128, 255);
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+
+.personal-title {
+    font-size: 1.3rem;
+    margin-bottom: .2cm;
+}
+
+.personal-title {
+    border-bottom: .06cm solid rgb(51, 51, 51);
+}
+
+.id-img-container {
+    width: 100%;
+    justify-content: center;
+    margin: .2cm 0;
+}
+
+.id-img {
+    width: 65%;
+    border-radius: 100%;
+}
+
+.personal-text-content {
+    flex: 1 0;
+    padding: 0 10px;
+}
+
+.name {
+    width: 100%;
+    font-size: 1.7rem;
+}
+
+.infos-list {
+    padding: 0;
+}
+
+.icon-container {
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.infos-item {
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.infos-item .wrapper {
+    height: 100%;
+}
+
+.infos-icon {
+    height: 70%;
+    width: 70%;
+    filter: invert(100%) grayscale(100%);
+}
+
+.main {
+    height: 100%;
+    padding: 0;
+    flex: 1 0;
+}
+
+.main-section {
+    align-items: flex-start;
+}
+
+.icon-container, .blue-bg, .blue-point {
+    background-color: rgb(14, 84, 132);
+}
+
+.gray-bg, .gray-point {
+    background-color: rgb(185, 185, 185);
+}
+
+.headband {
+    max-height: 15%;
+    flex: 1 0;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.headband-title {
+    text-align: center;
+}
+
+.internship-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.main-title, .skills-box-title {
+    color: rgb(250, 250, 250);
+}
+
+.main-title {
+    padding: .1cm .2cm;
+}
+
+.secondary-title {
+    font-size: 1.3rem;
+    border-radius: .18cm;
+    margin: .2cm;
+    display: inline-block;
+}
+
+.skills-grid {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.formations, .skills-wrapper {
+    width: 100%;
+}
+
+.formation, .formation-desc {
+    flex: 1 0;
+}
+
+.formation-desc {
+    text-align: justify;
+}
+
+.desc-line {
+    width: 90%;
+}
+
+.formation {
+    margin: 0 0 .2cm .25cm;
+}
+
+.formation-period {
+    width: 30%;
+}
+
+.exp .formation-period {
+    width: 24%;
+}
+
+.skills-wrapper {
+    align-items: stretch;
+    flex: 1 0;
+}
+
+.detailed-skills-list {
+    margin-left: .4cm;
+}
+
+.basic-skills-list {
+    margin: .1cm 0 0 .4cm;
+}
+
+.detailed-skill-box {
+    width: 33%;
+    justify-content: space-between;
+}
+
+.skill-label {
+    flex: 1;
+}
+
+.skill-label-t {
+    min-width: 70%;
+    margin: 0;
+}
+
+.detailed-skill-box:nth-of-type(3n+2) .skill-label .skill-label-t {
+    margin-left: 30%;
+}
+
+.detailed-skill-box:nth-of-type(3n+3) .skill-label .skill-label-t {
+    margin-left: 50%;
+}
+
+.skill-bar {
+    align-items: center;
+}
+
+.skill-point {
+    width: .33cm;
+    height: .33cm;
+    border-radius: 100%;
+    margin-right: .05cm;
+}
+
+.other-skill {
+    text-align: justify;
+}
